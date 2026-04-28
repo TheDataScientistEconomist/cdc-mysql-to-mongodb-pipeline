@@ -50,15 +50,16 @@ export MYSQL_ROOT_PASSWORD = yourpassword
    ```
 
 3. **Initialize MySQL**
-   </> Bash
+   ```python
    python container.py -init
+   ```
 
 4. **Start CDC Pipeline**
-   </> Bash
+   ```python
    python scheduler.py
+   ```
 
 5. **Stop Pipeline**
-   </> Python
    ```python
    stop_timer()
    ```
